@@ -1,42 +1,43 @@
 # A-Machine-Learning-Approach-for-Predicting-Upper-Limb-Motion-Intentions-with-Multimodal-Data
 
+This repository contains five machine learning classification models as described in the associated paper. The models include:
 
-This repository has five machine learning classification models along with two step model proposed in the paper: Logistic Regression, K-Nearest Neighbors (KNN), Support Vector Machine (SVM), and a Neural Network (NN) and combinatation of Long Short Term Memory (LSTM) + Neuaral Network (NN). These models uses libries as scikit-learn and TensorFlow. This guide will cover the dataset preparation, model training, prediction, and evaluation of each model.
+Logistic Regression
+K-Nearest Neighbors (KNN)
+Support Vector Machine (SVM)
+Neural Network (NN)
+Combination of Long Short-Term Memory (LSTM) and Neural Network (NN)
+These models utilize libraries such as Scikit-learn and TensorFlow. This guide covers dataset preparation, model training, prediction, and evaluation for each model.
 
-Logistic Regression, K-Nearest Neighbour, Support Vector Machines (SVM):
-
+Models and Evaluation:
+Logistic Regression, K-Nearest Neighbors, Support Vector Machines (SVM):
 Data Processing:
-Few columns are dropped, data is normalized and split into train and test. 
-
-Evaluation:
-F-1 score and accuracy are used to estimate the performance. 
-
-Neural Network:
-
-In Neural Network, we have used 2 hidden layers of 64 neurons in the first and 32 neurons in the second one, we have trained the model for 50 epochs, and the learning rate is 0.001. 
-
-Data Processing:
-Few columns are dropped, data is normalized and split into train and test. 
-
-Evaluation:
-F-1 score and accuracy are used to estimate the performance. 
-
+Drop selected columns
+Normalize data
+Split data into train and test sets
+Evaluation Metrics:
+F-1 Score
+Accuracy
+Neural Network (NN):
+Configuration:
+Two hidden layers with 64 neurons in the first layer and 32 neurons in the second layer
+Trained for 50 epochs
+Learning rate: 0.001
+Data Processing: Same as above.
+Evaluation Metrics: Same as above.
 LSTM:
-
-In LSTM, we have used 2 hidden layers of 64 neurons in the first and 32 neurons in the second one, we have trained the model for 50 epochs, and the learning rate is 0.001 with l2 regulirization in loss function. 
-
-Data Processing:
-Few columns are dropped, data is normalized and split into train and test. 
-
-Evaluation:
-F-1 score and accuracy are used to estimate the performance. 
-
-
+Configuration:
+Two hidden layers with 64 neurons in the first layer and 32 neurons in the second layer
+Trained for 50 epochs
+Learning rate: 0.001
+L2 regularization in the loss function
+Data Processing: Same as above.
+Evaluation Metrics: Same as above.
 Two-Step Model:
-
-This model is combination of both the LSTM and NN model, where only the gaze data is feed into the neural network model, and the features of neural network model is combined with raw resistance data, for prediction task. The first model is used to predict the 4 edges of the shape of motion, and the LSTM model is used to predict the direction of motion.
-
-This Model has same parameters as the above NN and LSTM.
+Description:
+This model is a combination of the LSTM and NN models. Only gaze data is fed into the NN, and the features from the NN are combined with raw resistance data for the prediction task.
+The NN model predicts the four edges of the motion shape, while the LSTM model predicts the motion direction.
+Configuration: Same parameters as the NN and LSTM models mentioned above.
 
 
 
