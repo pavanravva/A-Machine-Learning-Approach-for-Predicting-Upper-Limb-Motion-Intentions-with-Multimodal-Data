@@ -12,6 +12,7 @@ These models utilize libraries such as Scikit-learn and TensorFlow. This guide c
 Models and Evaluation:
 
 Logistic Regression, K-Nearest Neighbors, Support Vector Machines (SVM):
+
 Data Processing:
 Drop selected columns
 Normalize data
@@ -29,7 +30,9 @@ Data Processing: Same as above.
 Evaluation Metrics: Same as above.
 
 LSTM:
+
 Configuration:
+
 Two hidden layers with 64 neurons in the first layer and 32 neurons in the second layer
 Trained for 50 epochs
 Learning rate: 0.001
@@ -38,6 +41,7 @@ Data Processing: Same as above.
 Evaluation Metrics: Same as above.
 
 Two-Step Model:
+
 Description:
 
 This model is a combination of the LSTM and NN models. Only gaze data is fed into the NN, and the features from the NN are combined with raw resistance data for the prediction task.
