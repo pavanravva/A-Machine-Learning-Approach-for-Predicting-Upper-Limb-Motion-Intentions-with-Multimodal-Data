@@ -48,16 +48,16 @@ This repository corresponds to the study titled 'A Machine Learning Approach for
 ## CSV Files Overview:
 
 1. **Circle_original_Resistance.csv:**
-   - **Contents:** Original resistance values from the sleeve, coupled with gaze data for circle motion of participants.
-   - **Purpose:** Provides resistance measurements for participants performing circle motions along with gaze data for correlation analysis.
+   - **Contents:** Original resistance values from the sleeve, combined with gaze data for circle motion of participants.
+   - **Purpose:** Provides resistance measurements for participants performing circle motions along with gaze data to correlate visual focus and movement resistance.
 
 2. **Diamond_original_Resistance.csv:**
-   - **Contents:** Original resistance values from the sleeve, coupled with gaze data for diamond motion of participants.
+   - **Contents:** Original resistance values from the sleeve, combined with gaze data for diamond motion of participants.
    - **Purpose:** Contains resistance data for diamond motion exercises, useful for analyzing eye movement and resistance levels relationship.
 
 3. **Diamond_Circle_Resistance_Time_Features.csv:**
    - **Contents:** Time-varying features of resistance values with gaze data for both circle and diamond motions of participants.
-   - **Purpose:** Integrates circle and diamond motion data, focusing on dynamic resistance and gaze data over time for comprehensive motion analysis.
+   - **Purpose:** Integrates circle and diamond motion data, focusing on dynamic aspects of resistance and gaze data over time for comprehensive motion analysis.
 
 
 
