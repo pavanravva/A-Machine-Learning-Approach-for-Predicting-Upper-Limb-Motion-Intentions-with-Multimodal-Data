@@ -1,6 +1,8 @@
 # A-Machine-Learning-Approach-for-Predicting-Upper-Limb-Motion-Intentions-with-Multimodal-Data
 
-This is the repository for the study "A-Machine-Learning-Approach-for-Predicting-Upper-Limb-Motion-Intentions-with-Multimodal-Data"
+This repository corresponds to the study titled 'A Machine Learning Approach for Predicting Upper Limb Motion Intentions with Multimodal Data.' To reference this paper, please use the following citation:
+
+[]
 
 ## Used Models and Evaluation:
 
